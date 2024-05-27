@@ -1,0 +1,141 @@
+body {
+    font-family: Open Sans', sans-serif;
+   
+}
+
+.nav-item {
+  color: DarkTurquoise;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 25px;
+  transition: color 0.3s linear;
+  font-family: 'Raleway', Arial, sans-serif;
+  bottom: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 14px;
+}
+.nav-item i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #333;
+  transition: color 0.3s linear;
+}
+
+.nav-item i:hover {
+  color: #007bff; 
+}
+
+header h1 {
+  color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s linear;
+    font-family: 'Raleway', Arial, sans-serif;
+   padding:20px 0;
+   text-align: center;
+  justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.MAIN1 {
+    text-align: center;
+    padding: 50px 0;
+    text-size-adjust: unsetauto;
+}
+body{
+       background-color:LightCyan;
+}
+
+footer {
+    background-color: paleturquoise;
+    position:fixed;
+    right:0;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+    padding: 0px 0;
+    display: flex;
+    justify-content: space-between; /* Distribute content horizontally */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 1 0 33.33%;
+    padding: 0 15px;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo
+    img {
+    width: 120px;
+    height: auto;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.contact-info
+    p {
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    display:block;
+    align-items: center;
+}
+
+.social-media
+    ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.social-media
+    li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media
+    a {
+    color: #333;
+    font-size: 18px;
+}
+
+.social-media
+    a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+.fab {
+    font-size: 24px;
+    margin-right: 5px;
+}
+}
